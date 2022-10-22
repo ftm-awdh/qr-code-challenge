@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+  
+    background-color: rgb(205, 217, 232);
+
+}
+.container{
+    background-color:white;
+    height:475px;
+    width:290px;
+    position:absolute;
+    float:left;
+    top:25%;
+    right:40%;
+    border-radius: 13px;
+    font-family: 'Outfit', sans-serif;
+
+}
+.image{
+    border-radius:8px;
+    margin:15px;
+    width:260px;
+    object-position:centre;
+
+}
+.p{
+    text-align:center;
+    
+}
+.p1{
+    font-size:1.3rem;
+    color:rgb(7, 7, 45);
+    text-align:center;
+    font-weight:700;
+}
+.p2{
+   font-size:1rem;
+    color:gray;
+    text-align:center;
+    font-weight:400;
+}
+
+@media only screen and(min-width:600px){
+    .container{
+        background-color:white;
+        height:475px;
+        width:280px;
+        border-radius:11px;
+        font-family:Outfit, sans-serif;
+        object-fit: center;
+    
+      }
